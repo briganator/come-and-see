@@ -108,6 +108,7 @@ a.mp::after{content:"";display:inline-block;width:.42em;height:.42em;margin-left
 .art-wrap{border-radius:6px;overflow:hidden;background:#e9e0cf;box-shadow:0 1px 0 #e7dcc8,0 14px 34px -18px rgba(60,40,15,.45);line-height:0}
 .art-wrap img{display:block;width:100%;height:auto;transform-origin:50% 50%;will-change:transform}
 .art-fig.tall{max-width:30rem;margin-left:auto;margin-right:auto}
+.art-fig.small{max-width:24rem;margin-left:auto;margin-right:auto}
 .art-fig figcaption{font-size:.98rem;line-height:1.45;color:var(--soft);margin:.7rem .4rem 0;font-style:italic}
 .art-fig .credit{display:block;font-style:normal;font-size:.8rem;margin-top:.25rem;color:#8a7b6b;letter-spacing:.01em}
 .art-fig .credit a{color:#8a7b6b}
