@@ -91,3 +91,20 @@ No portrait is shown for anyone whose only available image is a later imagined l
 
 
 Map: Leaflet 1.9.4 (BSD-2-Clause), vendored in site/vendor/leaflet; tiles © OpenStreetMap contributors.
+
+
+## Added Oct 16, 2026 (gap fill)
+- img/art/art-billofrights.jpg: The amendments Congress sent to the states on September 25, 1789; the article on religion was ratified in 1791 as the First Amendment. Engrossed Bill of Rights, September 25, 1789; U.S. National Archives, via World Digital Library. Public domain. https://commons.wikimedia.org/wiki/File:Bill_of_Rights_WDL2704.png
+- img/art/art-gilsum.jpg: Gilsum, New Hampshire, where Solomon Mack spent the winter of 1810–11, in a bird’s-eye view of about 1908. Bird's-eye view of Gilsum, N.H., photographer unknown, about 1908. Public domain. https://commons.wikimedia.org/wiki/File:Bird%27s-eye_View_of_Gilsum,_NH.jpg
+- img/art/art-marlow.jpg: Main Street in Marlow, New Hampshire, photographed in 1907. Solomon and Lydia Mack moved to Marlow in 1761. Photographer unknown, 1907. Public domain. https://commons.wikimedia.org/wiki/File:Murray_Hall,_Marlow,_NH.jpg
+- img/art/art-tunbridge.jpg: South Tunbridge Methodist Episcopal Church, Tunbridge, Vermont (photographed 2014). Not the meetinghouse Lucy attended. Photo: John Phelan, 2014. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:South_Tunbridge_Methodist_Episcopal_Church,_Tunbridge_VT.jpg
+- img/art/art-nathansmith.jpg: Dr. Nathan Smith, the surgeon whose operation saved Joseph’s leg. Ulysses Dow Tenney, portrait of Nathan Smith, 1870, after an earlier portrait. Public domain. https://commons.wikimedia.org/wiki/File:Nathan_Smith_by_Ulysses_Dow_Tenney.jpg
+- img/art/art-kjv1611.jpg: Title page of the first edition of the King James Bible, 1611, the translation Joseph read. The Holy Bible (London: Robert Barker, 1611), title page. Public domain. https://commons.wikimedia.org/wiki/File:Title_page,_Authorised_Verson_Bible,_1611.jpg
+- img/art/art-fireside.jpg: “Farm and Fireside,” an 1878 lithograph of a family evening at home. It is not the Smith family. Farm and Fireside, lithograph, 1878; Library of Congress. Public domain. https://commons.wikimedia.org/wiki/File:Farm_and_fireside_LCCN2001699076.jpg
+- img/art/art-emma.jpg: Emma Smith in later life, about 1870. Photographer unknown, about 1870; Brigham Young University. Public domain. https://commons.wikimedia.org/wiki/File:Emma_Hale_Smith_Bidamon.jpg
+- img/art/art-baptism1873.jpg: Joseph and Oliver’s baptism in the Susquehanna, May 15, 1829, in an engraving published in 1873. Engraving in T. B. H. Stenhouse, The Rocky Mountain Saints, 1873. Public domain. https://commons.wikimedia.org/wiki/File:The_First_Mormon_Baptism.jpg
+- img/art/art-whitmercabin.jpg: The reconstructed Whitmer log home at the Peter Whitmer Farm, Fayette, New York (photographed 2006). Photo: Jake from Utah, 2006. CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:Peter_whitmer_log_home.JPG
+- img/art/art-samuel.jpg: Samuel H. Smith, Joseph’s younger brother, in a drawing made after his likeness. Artist unknown, 19th century. Public domain. https://commons.wikimedia.org/wiki/File:Samuel_H._Smith.jpg
+- img/art/art-whitneystore.jpg: The Newel K. Whitney store in Kirtland, Ohio, restored (photographed 2009). Photo: Jon Ridinger, 2009. CC BY 3.0. https://commons.wikimedia.org/wiki/File:NK_Whitney_Store.jpg
+- img/art/art-farwest.jpg: Monument at Far West, Missouri (photographed 2005), where Joseph moved his family in 1838. Photo: John Hamer, 2005. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:FarWestMonument.jpg
+- img/art/art-grove2021.jpg: The Sacred Grove near Palmyra, New York (photographed 2021). Photo: Ashleywood3, 2021. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:The_%22Sacred_Grove%22.jpg
