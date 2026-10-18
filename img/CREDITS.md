@@ -108,3 +108,10 @@ Map: Leaflet 1.9.4 (BSD-2-Clause), vendored in site/vendor/leaflet; tiles © Ope
 - img/art/art-whitneystore.jpg: The Newel K. Whitney store in Kirtland, Ohio, restored (photographed 2009). Photo: Jon Ridinger, 2009. CC BY 3.0. https://commons.wikimedia.org/wiki/File:NK_Whitney_Store.jpg
 - img/art/art-farwest.jpg: Monument at Far West, Missouri (photographed 2005), where Joseph moved his family in 1838. Photo: John Hamer, 2005. CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:FarWestMonument.jpg
 - img/art/art-grove2021.jpg: The Sacred Grove near Palmyra, New York (photographed 2021). Photo: Ashleywood3, 2021. CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:The_%22Sacred_Grove%22.jpg
+
+## Illustrations for this edition (v3)
+
+- **Reference paintings supplied by the author:** Sacred Grove cover (home hero, footer wash), candle-lit cabin (ch. 5), sunrise farm (ch. 4) and Cumorah at night (ch. 6). They are used with the author's permission. The source files are in `illus/ref/`.
+- **Original illustrations:** about 56 chapter banners, in-text scenes and page headers, created for this edition with AI image generation (Grok Imagine) in the style of the reference paintings. They are imagined scenes, not historical records. No real person's face is depicted. Each is captioned "Illustration". The full list with captions, alt text and prompts is in `illus/manifest.json`.
+- **Public-domain and openly licensed works:** see the list above. They are shown as "From the archive" plates.
+- **Removed in v3 (no longer shown):** art-tunbridge, art-farwest, art-grove2021, art-fireside, art-cumorah, art-iceexodus. All earlier chapter-hero photographs were replaced by the illustrated banners.

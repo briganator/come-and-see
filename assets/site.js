@@ -6,16 +6,21 @@ document.addEventListener('DOMContentLoaded',function(){
  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('drawn');io.unobserve(e.target)}})},{threshold:0.35});
  figs.forEach(function(f){io.observe(f)});
 
- // gentle Ken Burns motion on paintings, tied to scroll; skipped entirely when reduced motion is requested
+
+ // ---- v3 cinematic motion: reveals, parallax, progress (all skipped under reduced motion) ----
  var still=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
- var arts=[].slice.call(document.querySelectorAll('.art-fig img'));
- if(!still&&arts.length){
-  var dirs=[[1,1],[-1,1],[1,-1],[-1,-1]],ticking=false;
-  function kb(){ticking=false;var vh=window.innerHeight;arts.forEach(function(im,i){var r=im.parentNode.getBoundingClientRect();if(r.bottom<-50||r.top>vh+50)return;
-   var p=Math.min(1,Math.max(0,(vh-r.top)/(vh+r.height)));var d=dirs[i%4];
-   im.style.transform='scale('+(1.03+0.07*p).toFixed(4)+') translate3d('+(d[0]*(p-0.5)*2.4).toFixed(3)+'%,'+(d[1]*(p-0.5)*1.6).toFixed(3)+'%,0)'})}
-  window.addEventListener('scroll',function(){if(!ticking){ticking=true;requestAnimationFrame(kb)}},{passive:true});window.addEventListener('resize',kb);kb();
- }
+ var rv=[].slice.call(document.querySelectorAll('.rv'));
+ if(still||!('IntersectionObserver' in window)){rv.forEach(function(e){e.classList.add('in')})}
+ else{var ro=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');ro.unobserve(e.target)}})},{rootMargin:'0px 0px -8% 0px',threshold:0.12});rv.forEach(function(e){ro.observe(e)})}
+ var heroes=[].slice.call(document.querySelectorAll('.opener,.phero,.quote-band'));
+ var bar=document.querySelector('.progress span'),main=document.querySelector('main');
+ if(!still&&(heroes.length||bar)){
+  var tk=false;
+  function frame(){tk=false;var vh=window.innerHeight;
+   heroes.forEach(function(h){var r=h.getBoundingClientRect();if(r.bottom<0||r.top>vh)return;var p=-r.top/Math.max(1,r.height);h.style.setProperty('--p',Math.max(-1,Math.min(1,p)).toFixed(4))});
+   if(bar&&main){var r=main.getBoundingClientRect();var p=Math.min(1,Math.max(0,-r.top/Math.max(1,r.height-vh)));bar.style.transform='scaleX('+p.toFixed(4)+')'}}
+  window.addEventListener('scroll',function(){if(!tk){tk=true;requestAnimationFrame(frame)}},{passive:true});window.addEventListener('resize',frame);frame();
+ } else if(bar&&main){window.addEventListener('scroll',function(){var r=main.getBoundingClientRect();bar.style.transform='scaleX('+Math.min(1,Math.max(0,-r.top/Math.max(1,r.height-innerHeight)))+')'},{passive:true})}
  // downloads: enable each file link only once the file exists on the server
  function fmt(b){if(!b)return '';b=+b;return b>1048576?(b/1048576).toFixed(1)+' MB':Math.max(1,Math.round(b/1024))+' KB'}
  document.querySelectorAll('[data-file]').forEach(function(el){
