@@ -3,234 +3,301 @@
   "src": "img/portraits/lucy-mack-smith.jpg",
   "credit": "Portrait by Sutcliffe Maudsley, drawn in Nauvoo, Illinois",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Lucy_Mack_Smith_Painting_with_Book_of_Abraham_Vignette.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:Lucy_Mack_Smith_Painting_with_Book_of_Abraham_Vignette.jpg",
+  "webp": "img/portraits/lucy-mack-smith.webp"
  },
  "joseph-smith-jr": {
   "src": "img/portraits/joseph-smith-jr.jpg",
   "credit": "Painting by an unknown artist (probably William Warner Major), about 1842; Community of Christ archives",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Joseph_Smith,_Jr._portrait_owned_by_Joseph_Smith_III.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:Joseph_Smith,_Jr._portrait_owned_by_Joseph_Smith_III.jpg",
+  "webp": "img/portraits/joseph-smith-jr.webp"
  },
  "hyrum-smith": {
   "src": "img/portraits/hyrum-smith.jpg",
   "credit": "Copy of a drawing of Hyrum Smith, photographed by George Edward Anderson, about 1880–1920",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Hyrum_Smith_ca_1880-1920.png"
+  "page": "https://commons.wikimedia.org/wiki/File:Hyrum_Smith_ca_1880-1920.png",
+  "webp": "img/portraits/hyrum-smith.webp"
  },
  "emma-hale-smith": {
   "src": "img/portraits/emma-hale-smith.jpg",
   "credit": "Photograph, about 1844 (with a child); RLDS Archives",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:EmmaHSmith3.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:EmmaHSmith3.jpg",
+  "webp": "img/portraits/emma-hale-smith.webp"
  },
  "martin-luther": {
   "src": "img/portraits/martin-luther.jpg",
   "credit": "Lucas Cranach the Elder, 1528",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Lucas_Cranach_d.%C3%84._-_Martin_Luther,_1528_(Veste_Coburg).jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:Lucas_Cranach_d.%C3%84._-_Martin_Luther,_1528_(Veste_Coburg).jpg",
+  "webp": "img/portraits/martin-luther.webp"
  },
  "charles-v": {
   "src": "img/portraits/charles-v.jpg",
   "credit": "Portrait attributed to Titian, 1548 (Alte Pinakothek, Munich)",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Charles_V,_Holy_Roman_Emperor,_seated_(1500%E2%80%931558),_formerly_attributed_to_Titian_(Alte_Pinakothek,_Munich).jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Charles_V,_Holy_Roman_Emperor,_seated_(1500%E2%80%931558),_formerly_attributed_to_Titian_(Alte_Pinakothek,_Munich).jpg",
+  "webp": "img/portraits/charles-v.webp"
  },
  "john-foxe": {
   "src": "img/portraits/john-foxe.jpg",
   "credit": "Unidentified painter, 1587 (National Portrait Gallery, London)",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:John_Foxe_from_NPG_cleaned.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:John_Foxe_from_NPG_cleaned.jpg",
+  "webp": "img/portraits/john-foxe.webp"
  },
  "hugh-latimer": {
   "src": "img/portraits/hugh-latimer.jpg",
   "credit": "Unidentified painter, 1555 (National Portrait Gallery, London)",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Hugh_Latimer_from_NPG.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:Hugh_Latimer_from_NPG.jpg",
+  "webp": "img/portraits/hugh-latimer.webp"
  },
  "john-wesley": {
   "src": "img/portraits/john-wesley.jpg",
   "credit": "After George Romney",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:John_Wesley_by_George_Romney.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:John_Wesley_by_George_Romney.jpg",
+  "webp": "img/portraits/john-wesley.webp"
  },
  "samuel-harrison-smith": {
   "src": "img/portraits/samuel-harrison-smith.jpg",
   "credit": "Drawing by an unknown artist, made before his death in 1844",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Samuel_H._Smith.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:Samuel_H._Smith.jpg",
+  "webp": "img/portraits/samuel-harrison-smith.webp"
  },
  "william-smith": {
   "src": "img/portraits/william-smith.jpg",
   "credit": "Photograph, before 1893",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Williamsmith.gif"
+  "page": "https://commons.wikimedia.org/wiki/File:Williamsmith.gif",
+  "webp": "img/portraits/william-smith.webp"
  },
  "katharine-smith": {
   "src": "img/portraits/katharine-smith.jpg",
   "credit": "Photograph, before 1900",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Catherine_Smith_Salisbury.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:Catherine_Smith_Salisbury.jpg",
+  "webp": "img/portraits/katharine-smith.webp"
  },
  "lucy-smith-millikin": {
   "src": "img/portraits/lucy-smith-millikin.jpg",
   "credit": "Photograph by Charles Roscoe Savage",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Lucy_Smith_Millikin.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:Lucy_Smith_Millikin.jpg",
+  "webp": "img/portraits/lucy-smith-millikin.webp"
  },
  "oliver-cowdery": {
   "src": "img/portraits/oliver-cowdery.jpg",
   "credit": "Daguerreotype by James Presley Ball, 1840s",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Olivercowdery-sm.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:Olivercowdery-sm.jpg",
+  "webp": "img/portraits/oliver-cowdery.webp"
  },
  "martin-harris": {
   "src": "img/portraits/martin-harris.jpg",
   "credit": "Photograph, before July 1875",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Martinharrisat87.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:Martinharrisat87.jpg",
+  "webp": "img/portraits/martin-harris.webp"
  },
  "david-whitmer": {
   "src": "img/portraits/david-whitmer.jpg",
   "credit": "Photograph, before 1888",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:David_Witmer.JPG"
+  "page": "https://commons.wikimedia.org/wiki/File:David_Witmer.JPG",
+  "webp": "img/portraits/david-whitmer.webp"
  },
  "charles-anthon": {
   "src": "img/portraits/charles-anthon.jpg",
   "credit": "Engraving, published 1880 (New York Public Library)",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:The_late_Charles_Anthon,_LL.D.,_of_Columbia_College_(NYPL_Hades-255870-430890).tiff"
+  "page": "https://commons.wikimedia.org/wiki/File:The_late_Charles_Anthon,_LL.D.,_of_Columbia_College_(NYPL_Hades-255870-430890).tiff",
+  "webp": "img/portraits/charles-anthon.webp"
  },
  "parley-p-pratt": {
   "src": "img/portraits/parley-p-pratt.jpg",
   "credit": "Photograph, about 1845 (credited to Charles Roscoe Savage)",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Parley_P_Pratt.gif"
+  "page": "https://commons.wikimedia.org/wiki/File:Parley_P_Pratt.gif",
+  "webp": "img/portraits/parley-p-pratt.webp"
  },
  "sidney-rigdon": {
   "src": "img/portraits/sidney-rigdon.jpg",
   "credit": "Photograph, 1873",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Sidney_Rigdon_1873.PNG"
+  "page": "https://commons.wikimedia.org/wiki/File:Sidney_Rigdon_1873.PNG",
+  "webp": "img/portraits/sidney-rigdon.webp"
  },
  "brigham-young": {
   "src": "img/portraits/brigham-young.jpg",
   "credit": "Photograph by Charles William Carter, about 1865",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Charles_William_Carter_-_Brigham_Young_-_Google_Art_Project_(3x4_cropped).jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:Charles_William_Carter_-_Brigham_Young_-_Google_Art_Project_(3x4_cropped).jpg",
+  "webp": "img/portraits/brigham-young.webp"
  },
  "newel-k-whitney": {
   "src": "img/portraits/newel-k-whitney.jpg",
   "credit": "Published by Andrew Jenson, 1901",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Newel_K._Whitney.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:Newel_K._Whitney.jpg",
+  "webp": "img/portraits/newel-k-whitney.webp"
  },
  "orson-hyde": {
   "src": "img/portraits/orson-hyde.jpg",
   "credit": "Photograph, before 1878",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Orson_Hyde.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:Orson_Hyde.jpg",
+  "webp": "img/portraits/orson-hyde.webp"
  },
  "lilburn-boggs": {
   "src": "img/portraits/lilburn-boggs.jpg",
   "credit": "Official governor's portrait by Ralph Chesley Ott, painted 1922",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Lilburn_Boggs,_Official_governor_portrait.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:Lilburn_Boggs,_Official_governor_portrait.jpg",
+  "webp": "img/portraits/lilburn-boggs.webp"
  },
  "alexander-doniphan": {
   "src": "img/portraits/alexander-doniphan.jpg",
   "credit": "Photograph from the studio of Mathew Brady, between 1844 and 1860",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Alexander_William_Doniphan.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:Alexander_William_Doniphan.jpg",
+  "webp": "img/portraits/alexander-doniphan.webp"
  },
  "george-hinkle": {
   "src": "img/portraits/george-hinkle.jpg",
   "credit": "Photograph, before 1861",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:George_M._Hinkle.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:George_M._Hinkle.jpg",
+  "webp": "img/portraits/george-hinkle.webp"
  },
  "heber-c-kimball": {
   "src": "img/portraits/heber-c-kimball.jpg",
   "credit": "Photograph, 19th century",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Heber_Chase_Kimball-2.png"
+  "page": "https://commons.wikimedia.org/wiki/File:Heber_Chase_Kimball-2.png",
+  "webp": "img/portraits/heber-c-kimball.webp"
  },
  "mary-fielding-smith": {
   "src": "img/portraits/mary-fielding-smith.jpg",
   "credit": "Portrait by Sutcliffe Maudsley",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Mary_Fielding_Smith.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:Mary_Fielding_Smith.jpg",
+  "webp": "img/portraits/mary-fielding-smith.webp"
  },
  "joseph-smith-iii": {
   "src": "img/portraits/joseph-smith-iii.jpg",
   "credit": "Published in Benjamin F. Gue, History of Iowa (1903)",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Joseph_Smith_III(2).jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:Joseph_Smith_III(2).jpg",
+  "webp": "img/portraits/joseph-smith-iii.webp"
  },
  "elijah-fordham": {
   "src": "img/portraits/elijah-fordham.jpg",
   "credit": "Photograph, published 1913",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Elijah_Fordham.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:Elijah_Fordham.jpg",
+  "webp": "img/portraits/elijah-fordham.webp"
  },
  "john-taylor": {
   "src": "img/portraits/john-taylor.jpg",
   "credit": "Photograph, 19th century",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:John_Taylor_seated_in_chair.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:John_Taylor_seated_in_chair.jpg",
+  "webp": "img/portraits/john-taylor.webp"
  },
  "willard-richards": {
   "src": "img/portraits/willard-richards.jpg",
   "credit": "Daguerreotype, about 1845, probably by Lucian R. Foster",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:WillardRichards.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:WillardRichards.jpg",
+  "webp": "img/portraits/willard-richards.webp"
  },
  "eliza-r-snow": {
   "src": "img/portraits/eliza-r-snow.jpg",
   "credit": "Photograph, about 1870",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Eliza_Roxcy_Snow_photograph.PNG"
+  "page": "https://commons.wikimedia.org/wiki/File:Eliza_Roxcy_Snow_photograph.PNG",
+  "webp": "img/portraits/eliza-r-snow.webp"
  },
  "w-w-phelps": {
   "src": "img/portraits/w-w-phelps.jpg",
   "credit": "Photograph, before 1872",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:William_W._Phelps.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:William_W._Phelps.jpg",
+  "webp": "img/portraits/w-w-phelps.webp"
  },
  "john-murdock": {
   "src": "img/portraits/john-murdock.jpg",
   "credit": "Photograph, published 1913",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:John_Murdock_(Mormon).jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:John_Murdock_(Mormon).jpg",
+  "webp": "img/portraits/john-murdock.webp"
  },
  "william-law": {
   "src": "img/portraits/william-law.jpg",
   "credit": "Photograph, before 1892",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:William-law-pic.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:William-law-pic.jpg",
+  "webp": "img/portraits/william-law.webp"
  },
  "thomas-ford": {
   "src": "img/portraits/thomas-ford.jpg",
   "credit": "Published by the State of Illinois, 1899",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Thomas_Ford_(cropped_less).png"
+  "page": "https://commons.wikimedia.org/wiki/File:Thomas_Ford_(cropped_less).png",
+  "webp": "img/portraits/thomas-ford.webp"
  },
  "john-wentworth": {
   "src": "img/portraits/john-wentworth.jpg",
   "credit": "Photograph, published 1878",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:John_Wentworth_of_Chicago_(3x4).jpeg"
+  "page": "https://commons.wikimedia.org/wiki/File:John_Wentworth_of_Chicago_(3x4).jpeg",
+  "webp": "img/portraits/john-wentworth.webp"
  },
  "wilford-woodruff": {
   "src": "img/portraits/wilford-woodruff.jpg",
   "credit": "Photograph by Charles Roscoe Savage, 1889",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Wilford_Woodruff_1889.jpg"
+  "page": "https://commons.wikimedia.org/wiki/File:Wilford_Woodruff_1889.jpg",
+  "webp": "img/portraits/wilford-woodruff.webp"
  },
  "william-r-staples": {
   "src": "img/portraits/william-r-staples.jpg",
   "credit": "Published in The Green Bag, December 1890",
   "license": "Public domain",
-  "page": "https://commons.wikimedia.org/wiki/File:Judge_William_R._Staples.png"
+  "page": "https://commons.wikimedia.org/wiki/File:Judge_William_R._Staples.png",
+  "webp": "img/portraits/william-r-staples.webp"
+ },
+ "amanda-barnes-smith": {
+  "src": "img/portraits/amanda-barnes-smith.jpg",
+  "credit": "Photograph, photographer and date unknown (courtesy Church History Library, Salt Lake City)",
+  "license": "Public domain (19th-century photograph)",
+  "page": "https://www.churchofjesuschrist.org/study/history/topics/amanda-barnes-smith?lang=eng",
+  "webp": "img/portraits/amanda-barnes-smith.webp"
+ },
+ "nathan-smith": {
+  "src": "img/portraits/nathan-smith.jpg",
+  "credit": "Painting by Samuel F. B. Morse (Yale University)",
+  "license": "Public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:Nathan_Smith_(physician)_-_color.jpg",
+  "webp": "img/portraits/nathan-smith.webp"
+ },
+ "howard-w-hunter": {
+  "src": "img/portraits/howard-w-hunter.jpg",
+  "credit": "Photograph published in The Rixida (Ricks College yearbook), 1962",
+  "license": "Public domain (published without copyright notice)",
+  "page": "https://commons.wikimedia.org/wiki/File:Howard_W._Hunter.JPG",
+  "webp": "img/portraits/howard-w-hunter.webp"
+ },
+ "constantine-i": {
+  "src": "img/portraits/constantine-i.jpg",
+  "credit": "Head of the colossal marble statue of Constantine, about 313–324 (Capitoline Museums, Rome); photo by Jean-Pol Grandmont",
+  "license": "CC BY-SA 3.0 (photo); sculpture public domain",
+  "page": "https://commons.wikimedia.org/wiki/File:0_Constantinus_I_-_Palazzo_dei_Conservatori_(2).JPG",
+  "webp": "img/portraits/constantine-i.webp"
  }
 }

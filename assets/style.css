@@ -447,3 +447,58 @@ blockquote{border-left-color:var(--gold-l)}
 .home-hero:before{background:radial-gradient(ellipse 65% 55% at 50% 50%,rgba(14,10,6,.5),rgba(14,10,6,.15) 65%,rgba(14,10,6,0) 100%),linear-gradient(180deg,rgba(14,10,6,.4) 0%,rgba(14,10,6,0) 20%,rgba(14,10,6,0) 70%,rgba(14,10,6,.8) 100%)}
 .chcard h3,.excard h3{text-align:left}
 .phero+main,.phero+div,.phero+section{padding-top:2.6rem}
+/* ---- People: expanded profiles (2026-10) ---- */
+dialog.bio{max-height:calc(100dvh - 2rem);overflow:hidden;display:none;flex-direction:column}
+dialog.bio[open]{display:flex}
+.bio .bio-bar{display:flex;align-items:center;gap:.4rem;padding:.55rem .7rem .55rem 1rem;border-bottom:1px solid var(--rule);background:#fbf6ec;position:relative;flex:0 0 auto}
+.bio .bio-bar .close{position:static;margin-left:auto;padding:0 .3rem}
+.bio .bnav{border:1px solid var(--rule);background:#fffdf8;border-radius:999px;padding:.3rem .8rem;font:inherit;font-size:.9rem;color:var(--accent);cursor:pointer;max-width:42%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bio .bnav:hover{border-color:#cdbb98}
+.bio .bnav[hidden]{display:none}
+.bio .inner{overflow-y:auto;-webkit-overflow-scrolling:touch;flex:1 1 auto;align-items:start}
+.bio .por{position:sticky;top:0}
+.bio .facts{display:grid;grid-template-columns:auto 1fr;gap:.35rem 1rem;margin:.2rem 0 1.1rem;padding:.9rem 1rem;background:#f7efdf;border:1px solid var(--rule);border-radius:10px;font-size:.98rem;line-height:1.45}
+.bio .facts dt{font-family:"Cormorant",serif;font-weight:600;font-size:.82rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);padding-top:.15rem}
+.bio .facts dd{margin:0}
+.bio .bsec{margin:1.2rem 0 0}
+.bio .bsec h3{font-family:"Cormorant",serif;font-weight:600;font-size:.9rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin:0 0 .35rem;padding-bottom:.3rem;border-bottom:1px solid var(--rule)}
+.bio .km{list-style:none;margin:.5rem 0 0;padding:0 0 0 1rem;border-left:2px solid #e5d6b8}
+.bio .km li{position:relative;padding:.3rem 0 .45rem .2rem;font-size:1rem;line-height:1.45}
+.bio .km li::before{content:"";position:absolute;left:-1.42rem;top:.72rem;width:.6rem;height:.6rem;border-radius:50%;background:var(--paper);border:2px solid var(--gold)}
+.bio .km b{display:block;font-family:"Cormorant",serif;font-weight:600;font-size:1.05rem;color:var(--accent)}
+.bio .bq{margin:1.4rem 0 0;padding:1rem 1.2rem;background:linear-gradient(180deg,#f8f0de,#f3e8d2);border-radius:10px;border-left:3px solid var(--gold)}
+.bio .bq blockquote{margin:0;padding:0;border:none}
+.bio .bq blockquote p{font-family:"Cormorant",serif;font-style:italic;font-size:1.3rem;line-height:1.4;color:#3a2e22;margin:0}
+.bio .bq figcaption{margin-top:.5rem;font-size:.88rem;color:var(--soft)}
+.bio .chlinks{list-style:none;padding:0;margin:.5rem 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(12.5rem,1fr));gap:.5rem}
+.bio .chlinks a{display:flex;gap:.6rem;align-items:center;padding:.4rem .55rem;border:1px solid var(--rule);border-radius:8px;background:#fffdf8;text-decoration:none;color:var(--ink);font-size:.95rem;line-height:1.25}
+.bio .chlinks a:hover{border-color:#cdbb98;background:#fbf4e6}
+.bio .chlinks img{width:42px;height:28px;object-fit:cover;border-radius:4px;flex:0 0 auto}
+.bio .chlinks small{display:block;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold)}
+.bio .srcd{margin-top:1.2rem;font-size:.9rem;color:var(--soft)}
+.bio .srcd summary{cursor:pointer;color:var(--accent);font-size:.92rem}
+.bio .srcd .src{margin:.4rem 0 0;line-height:1.5}
+@media (max-width:640px){
+ dialog.bio{width:100%;max-width:none;height:100dvh;max-height:100dvh;margin:0;border-radius:0}
+ .bio .inner{padding:1.1rem 1.1rem 2rem;gap:1rem}
+ .bio .por{position:static;display:grid;grid-template-columns:6.5rem 1fr;gap:.8rem;align-items:end;max-width:none}
+ .bio .por .ini{font-size:2.2rem}
+ .bio h2{font-size:1.75rem}
+ .bio .facts{grid-template-columns:1fr;gap:.1rem}
+ .bio .facts dd{margin-bottom:.45rem}
+ .bio .bnav{max-width:38%;font-size:.85rem}
+}
+@media (max-width:640px){.bio .por{grid-template-columns:5rem 1fr}.bio .por .ini{aspect-ratio:1;border-radius:50%;font-size:1.8rem}}
+.bio .close:focus:not(:focus-visible),.bio .bnav:focus:not(:focus-visible){outline:none}
+
+/* People: consistent painterly portrait frame (2026-10) */
+.person .avatar,.person .avatar.ini,.bio .por img,.bio .por .ini{
+ border:3px solid #fbf5e8;outline:1px solid rgba(140,108,60,.45);outline-offset:0;
+ box-shadow:0 1px 0 rgba(255,255,255,.6) inset,0 8px 18px -10px rgba(60,38,12,.55),0 0 0 4px rgba(176,142,88,.18)}
+.person .avatar{border-radius:6px;background:#e9dfcc}
+.person .avatar.ini{height:5.4rem;border-radius:6px}
+.person .avatar img{filter:sepia(.22) saturate(.85) contrast(1.03)}
+.person .avatar.ini,.bio .por .ini{background-image:radial-gradient(120% 90% at 30% 20%,rgba(255,255,255,.22),transparent 55%),radial-gradient(90% 80% at 80% 100%,rgba(0,0,0,.28),transparent 60%)!important;text-shadow:0 1px 2px rgba(0,0,0,.25)}
+.bio .por img{border-radius:6px;aspect-ratio:3/4;object-fit:cover;object-position:50% 20%;filter:sepia(.18) saturate(.88) contrast(1.03)}
+.bio .por .ini{border-radius:6px}
+@media (max-width:640px){.bio .por .ini{aspect-ratio:3/4;border-radius:6px}}

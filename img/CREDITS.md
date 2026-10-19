@@ -47,6 +47,10 @@ Every picture in the book is a public-domain engraving, woodcut, lithograph, pai
 
 | Person | Credit | License | Source |
 |---|---|---|---|
+| amanda-barnes-smith | Photograph, photographer and date unknown (courtesy Church History Library, Salt Lake City) | Public domain (19th-century photograph) | https://www.churchofjesuschrist.org/study/history/topics/amanda-barnes-smith?lang=eng |
+| nathan-smith | Painting by Samuel F. B. Morse (Yale University) | Public domain | https://commons.wikimedia.org/wiki/File:Nathan_Smith_(physician)_-_color.jpg |
+| howard-w-hunter | Photograph published in The Rixida (Ricks College yearbook), 1962 | Public domain (published without copyright notice) | https://commons.wikimedia.org/wiki/File:Howard_W._Hunter.JPG |
+| constantine-i | Head of the colossal marble statue of Constantine, about 313–324 (Capitoline Museums, Rome); photo by Jean-Pol Grandmont | CC BY-SA 3.0 (photo); sculpture public domain | https://commons.wikimedia.org/wiki/File:0_Constantinus_I_-_Palazzo_dei_Conservatori_(2).JPG |
 | alexander-doniphan | Photograph from the studio of Mathew Brady, between 1844 and 1860 | Public domain | https://commons.wikimedia.org/wiki/File:Alexander_William_Doniphan.jpg |
 | brigham-young | Photograph by Charles William Carter, about 1865 | Public domain | https://commons.wikimedia.org/wiki/File:Charles_William_Carter_-_Brigham_Young_-_Google_Art_Project_(3x4_cropped).jpg |
 | charles-anthon | Engraving, published 1880 (New York Public Library) | Public domain | https://commons.wikimedia.org/wiki/File:The_late_Charles_Anthon,_LL.D.,_of_Columbia_College_(NYPL_Hades-255870-430890).tiff |
