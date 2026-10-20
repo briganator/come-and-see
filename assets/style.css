@@ -576,6 +576,15 @@ dialog.bio[open]{display:flex}
 @keyframes twinkle{0%,100%{opacity:.1}50%{opacity:1}}
 @media (max-width:700px){.op-fx .pt i:nth-child(n+19){display:none}}
 @media (prefers-reduced-motion:reduce){.op-fx .glow,.op-fx .halo,.op-fx .dawn,.op-fx .glow.sun{opacity:.6}}
+/* v3: no beams; canopy glow, leaves, warm cloud drift */
+.op-fx .glow.canopy{width:48%;background:radial-gradient(closest-side,rgba(255,226,150,.55),rgba(255,200,110,.18) 60%,transparent)}
+.op-fx .petals.leaves i{background:rgba(196,150,60,.9);border-radius:0 70% 0 70%;box-shadow:none}
+.op-fx .cloudsw{left:-10%!important;width:120%;height:34%;translate:0 -50%;background:radial-gradient(35% 45% at 25% 50%,rgba(255,214,170,.38),transparent 70%),radial-gradient(30% 40% at 70% 45%,rgba(255,200,160,.32),transparent 70%)}
+.js .op-fx .glow.canopy{animation:breathe 7s ease-in-out infinite}
+.js .op-fx .cloudsw{animation:drift 10s ease-in-out infinite alternate}
+.js .op-fx .dawn.rise{animation:dawn 6s ease-out .4s both,breathe 7s ease-in-out 6.4s infinite}
+.op-fx .glow.storm{width:34%;background:radial-gradient(closest-side,rgba(255,232,180,.6),rgba(255,210,150,.2) 60%,transparent)}
+.js .op-fx .glow.storm{animation:dimflick 5s ease-in-out infinite}
 /* v2: full composition, no zoom crop, no sweep on chapters (home keeps it) */
 .opener[class*="m-ch"] .op-sweep{display:none!important}
 .opener[class*="m-ch"] .op-img{transform:none!important;object-position:var(--ox,50%) 50%}
