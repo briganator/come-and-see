@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded',function(){
  } else if(bar&&main){window.addEventListener('scroll',function(){var r=main.getBoundingClientRect();bar.style.transform='scaleX('+Math.min(1,Math.max(0,-r.top/Math.max(1,r.height-innerHeight)))+')'},{passive:true})}
  // ---- chapter opener motion: size fx stage like the cover image; pause offscreen ----
  (function(){var o=document.querySelector('.opener[class*="m-ch"]');if(!o)return;var st=o.querySelector('.op-fx');
-  function size(){var w=o.clientWidth,h=o.clientHeight,r=16/9;if(w/h>r){st.style.setProperty('--fw',w+'px');st.style.setProperty('--fh',w/r+'px')}else{st.style.setProperty('--fw',h*r+'px');st.style.setProperty('--fh',h+'px')}}
+  function size(){var w=o.clientWidth,h=o.clientHeight,r=16/9,fw,fh,ox=parseFloat(getComputedStyle(o).getPropertyValue('--ox'))||50;if(w/h>r){fw=w;fh=w/r}else{fw=h*r;fh=h}st.style.setProperty('--fw',fw+'px');st.style.setProperty('--fh',fh+'px');st.style.setProperty('--fl',(w-fw)*ox/100+'px');st.style.setProperty('--ft',(h-fh)/2+'px')}
   size();window.addEventListener('resize',size);
   if('IntersectionObserver' in window)new IntersectionObserver(function(es){o.classList.toggle('off',!es[0].isIntersecting)}).observe(o);
  })();
