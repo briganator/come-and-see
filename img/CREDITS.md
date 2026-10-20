@@ -41,6 +41,7 @@ Every picture in the book is a public-domain engraving, woodcut, lithograph, pai
 | art-carthage | Ch. 12: Carthage | C.C.A. Christensen (1831–1912), Exterior of Carthage Jail, 19th century | Public domain | https://commons.wikimedia.org/wiki/File:Exterior_of_Carthage_Jail_by_C.C.A._Christensen.png |
 | art-iceexodus | Ch. 12: The Work Rolls On | C.C.A. Christensen (1831–1912), Crossing the Mississippi on the Ice, about 1878 | Public domain | https://commons.wikimedia.org/wiki/File:Crossing_the_Mississippi_on_the_Ice_by_C.C.A._Christensen.png |
 | art-templedag | Ch. 12: The Work Rolls On | Louis R. Chaffin (attributed), daguerreotype, about 1847 | Public domain | https://commons.wikimedia.org/wiki/File:Nauvoo_Temple_daguerreotype.jpg |
+| art-js-daguerreotype | Ch. 12: “Round Up Your Shoulders” | Daguerreotype believed to be Joseph Smith, c. 1844. Courtesy Community of Christ. Identification not certain | Public domain | https://commons.wikimedia.org/wiki/File:Joseph_Smith_daguerreotype.jpg |
 | art-carthage1862 | Ch. 12: Carthage | François Fortuné Antoine Ferogio, engraving in Le Tour du monde, 1862 | Public domain | https://commons.wikimedia.org/wiki/File:Le_Tour_du_monde-06-p390.jpg |
 
 ## Portraits (people.html)
@@ -69,7 +70,7 @@ Every picture in the book is a public-domain engraving, woodcut, lithograph, pai
 | john-wentworth | Photograph, published 1878 | Public domain | https://commons.wikimedia.org/wiki/File:John_Wentworth_of_Chicago_(3x4).jpeg |
 | john-wesley | After George Romney | Public domain | https://commons.wikimedia.org/wiki/File:John_Wesley_by_George_Romney.jpg |
 | joseph-smith-iii | Published in Benjamin F. Gue, History of Iowa (1903) | Public domain | https://commons.wikimedia.org/wiki/File:Joseph_Smith_III(2).jpg |
-| joseph-smith-jr | Painting by an unknown artist (probably William Warner Major), about 1842; Community of Christ archives | Public domain | https://commons.wikimedia.org/wiki/File:Joseph_Smith,_Jr._portrait_owned_by_Joseph_Smith_III.jpg |
+| joseph-smith-jr | Daguerreotype believed to be Joseph Smith, c. 1844. Courtesy Community of Christ. Identification not certain (Romig & Mackay, JWHA Journal 42:1, 2022) | Public domain | https://commons.wikimedia.org/wiki/File:Joseph_Smith_daguerreotype.jpg |
 | katharine-smith | Photograph, before 1900 | Public domain | https://commons.wikimedia.org/wiki/File:Catherine_Smith_Salisbury.jpg |
 | lilburn-boggs | Official governor's portrait by Ralph Chesley Ott, painted 1922 | Public domain | https://commons.wikimedia.org/wiki/File:Lilburn_Boggs,_Official_governor_portrait.jpg |
 | lucy-mack-smith | Portrait by Sutcliffe Maudsley, drawn in Nauvoo, Illinois | Public domain | https://commons.wikimedia.org/wiki/File:Lucy_Mack_Smith_Painting_with_Book_of_Abraham_Vignette.jpg |
