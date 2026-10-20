@@ -502,3 +502,77 @@ dialog.bio[open]{display:flex}
 .bio .por img{border-radius:6px;aspect-ratio:3/4;object-fit:cover;object-position:50% 20%;filter:sepia(.18) saturate(.88) contrast(1.03)}
 .bio .por .ini{border-radius:6px}
 @media (max-width:640px){.bio .por .ini{aspect-ratio:3/4;border-radius:6px}}
+
+/* ---- Chapter opener motion, one scene per chapter (2026-10) ---- */
+.op-kb,.op-fxw{position:absolute;inset:0;z-index:0;pointer-events:none}
+.opener picture{z-index:0}
+.op-fxw{z-index:1;overflow:hidden}
+.op-fx{position:absolute;left:50%;top:50%;width:var(--fw,100%);height:var(--fh,100%);transform:translate3d(-50%,calc(-50% + var(--p,0)*9vh),0) scale(1.1)}
+.op-fx>*{position:absolute;display:block;pointer-events:none;opacity:0}
+.op-fx .glow{width:22%;aspect-ratio:1;translate:-50% -50%;background:radial-gradient(closest-side,rgba(255,204,120,.55),rgba(255,170,80,.18) 55%,transparent);mix-blend-mode:screen}
+.op-fx .glow.warm{width:14%}.op-fx .glow.cell{width:10%}
+.op-fx .glow.sun{width:40%;background:radial-gradient(closest-side,rgba(255,230,170,.35),transparent)}
+.op-fx .beam{width:26%;height:70%;translate:-50% 0;background:linear-gradient(200deg,rgba(190,210,255,.18),transparent 75%);clip-path:polygon(35% 0,65% 0,100% 100%,0 100%);mix-blend-mode:screen}
+.op-fx .mist,.op-fx .fog{left:-20%!important;width:140%;height:26%;translate:0 -50%;background:radial-gradient(40% 50% at 30% 50%,rgba(240,232,215,.30),transparent 70%),radial-gradient(35% 45% at 72% 55%,rgba(240,232,215,.24),transparent 70%)}
+.op-fx .fog{height:40%;background:radial-gradient(45% 50% at 35% 50%,rgba(215,225,235,.32),transparent 70%),radial-gradient(40% 45% at 80% 60%,rgba(215,225,235,.26),transparent 70%)}
+.op-fx .mist.low{height:16%}
+.op-fx .cloudlight,.op-fx .halo,.op-fx .dawn{width:36%;aspect-ratio:1;translate:-50% -50%;background:radial-gradient(closest-side,rgba(235,240,255,.30),transparent);mix-blend-mode:screen}
+.op-fx .halo{width:18%;background:radial-gradient(closest-side,rgba(220,232,255,.5),rgba(200,215,255,.12) 60%,transparent)}
+.op-fx .dawn{width:60%;background:radial-gradient(closest-side,rgba(255,196,120,.45),rgba(255,160,90,.12) 60%,transparent)}
+.op-fx .shafts,.op-fx .rays,.op-fx .stormlight{width:70%;height:115%;translate:-50% 0;background:repeating-linear-gradient(102deg,transparent 0 6%,rgba(255,236,180,.20) 8%,transparent 11% 15%,rgba(255,236,180,.12) 17%,transparent 20%);-webkit-mask:linear-gradient(180deg,#000,transparent 85%);mask:linear-gradient(180deg,#000,transparent 85%);mix-blend-mode:screen;transform-origin:50% 0}
+.op-fx .rays{width:90%;height:90%;translate:-50% -50%;background:repeating-conic-gradient(from 0deg at 50% 50%,rgba(255,220,160,.16) 0 3deg,transparent 3deg 14deg);-webkit-mask:radial-gradient(closest-side,#000,transparent);mask:radial-gradient(closest-side,#000,transparent);transform-origin:50% 50%}
+.op-fx .stormlight{width:34%;height:80%;background:linear-gradient(180deg,rgba(255,232,180,.30),transparent 85%);clip-path:polygon(30% 0,70% 0,95% 100%,5% 100%)}
+.op-fx .clouds{left:-10%!important;width:120%;height:45%;translate:0 -50%;background:radial-gradient(40% 50% at 30% 50%,rgba(20,18,22,.35),transparent 70%),radial-gradient(35% 45% at 75% 45%,rgba(20,18,22,.3),transparent 70%)}
+.op-fx .dawnsweep{inset:0;width:100%;height:100%;translate:0 0;background:linear-gradient(100deg,transparent 30%,rgba(255,214,150,.18) 45%,transparent 60%);mix-blend-mode:screen}
+.op-fx .shimmer,.op-fx .glitter{width:60%;height:22%;translate:-50% -50%;background:repeating-linear-gradient(180deg,transparent 0 5px,rgba(255,238,200,.22) 6px,transparent 8px 13px);-webkit-mask:radial-gradient(closest-side,#000,transparent);mask:radial-gradient(closest-side,#000,transparent);mix-blend-mode:screen}
+.op-fx .glitter{width:30%;height:26%;background:repeating-linear-gradient(180deg,transparent 0 4px,rgba(255,215,140,.35) 5px,transparent 7px 11px)}
+.op-fx .pt{inset:0;width:100%;height:100%;opacity:1}
+.op-fx .pt i{position:absolute;left:var(--x);top:var(--y);width:var(--s);height:var(--s);border-radius:50%;background:rgba(255,250,240,.85);opacity:0}
+.op-fx .motes i{background:rgba(220,230,255,.7)}.op-fx .motes.gold i{background:rgba(255,226,160,.8)}
+.op-fx .stars i{background:#fff;box-shadow:0 0 4px rgba(255,255,255,.8)}
+.op-fx .petals i{border-radius:60% 0 60% 0;background:rgba(255,236,240,.85);width:calc(var(--s)*1.6)}
+@media (prefers-reduced-motion:no-preference){
+ .js .opener picture,.js .op-fxw{animation:var(--kb,none) 16s cubic-bezier(.33,0,.2,1) .2s both;transform-origin:var(--ko,50% 50%)}
+ .js .opener.off *,.js .opener.off{animation-play-state:paused!important}
+ .js .op-fx .glow{animation:flick 3.7s ease-in-out infinite,fadeIn 2.5s ease 1s both}
+ .js .op-fx .glow.warm,.js .op-fx .glow.cell{animation:flick 5.3s ease-in-out infinite}
+ .js .op-fx .glow.sun{animation:breathe 10s ease-in-out infinite}
+ .js .op-fx .beam,.js .op-fx .cloudlight{animation:breathe 9s ease-in-out infinite}
+ .js .op-fx .halo{animation:breathe 8s ease-in-out infinite}
+ .js .op-fx .mist{animation:drift 12s ease-in-out infinite alternate}
+ .js .op-fx .mist.m2{animation-duration:9s;animation-direction:alternate-reverse}
+ .js .op-fx .fog{animation:drift 11s ease-in-out infinite alternate}
+ .js .op-fx .shafts{animation:shafts 10s ease-in-out infinite alternate}
+ .js .op-fx .rays{animation:rays 12s ease-in-out infinite alternate}
+ .js .op-fx .stormlight{animation:dimflick 8s ease-in-out infinite}
+ .js .op-fx .clouds{animation:drift 12s ease-in-out infinite alternate-reverse}
+ .js .op-fx .dawn{animation:dawn 10s ease-out .6s both,breathe 9s ease-in-out 10.6s infinite}
+ .js .op-fx .dawnsweep{animation:dsweep 9s cubic-bezier(.45,.05,.3,1) 1.2s 1 both}
+ .js .op-fx .shimmer{animation:shim 6s ease-in-out infinite}
+ .js .op-fx .glitter{animation:shim 4.5s ease-in-out infinite}
+ .js .op-fx .snow i,.js .op-fx .petals i{animation:fall var(--d) linear var(--dl) infinite}
+ .js .op-fx .petals i{animation-name:petal}
+ .js .op-fx .motes i{animation:mote var(--d) ease-in-out var(--dl) infinite}
+ .js .op-fx .stars i{animation:twinkle var(--d) ease-in-out var(--dl) infinite}
+}
+@keyframes kb-in{from{transform:scale(1)}to{transform:scale(1.06)}}
+@keyframes kb-out{from{transform:scale(1.07)}to{transform:scale(1)}}
+@keyframes kb-pan-r{from{transform:scale(1.05) translate3d(-1.5%,0,0)}to{transform:scale(1.05) translate3d(1.5%,0,0)}}
+@keyframes kb-pan-l{from{transform:scale(1.05) translate3d(1.5%,0,0)}to{transform:scale(1.05) translate3d(-1.5%,0,0)}}
+@keyframes kb-up{from{transform:scale(1.06) translate3d(0,1.5%,0)}to{transform:scale(1.03) translate3d(0,-1%,0)}}
+@keyframes fadeIn{from{opacity:0}}
+@keyframes flick{0%,100%{opacity:.85;scale:1}18%{opacity:.7;scale:.97}33%{opacity:.95;scale:1.03}52%{opacity:.75;scale:.98}71%{opacity:1;scale:1.02}86%{opacity:.8;scale:.99}}
+@keyframes breathe{0%,100%{opacity:.45}50%{opacity:.9}}
+@keyframes drift{from{opacity:.75;transform:translate3d(-4%,0,0)}to{opacity:1;transform:translate3d(4%,0,0)}}
+@keyframes shafts{from{opacity:.45;transform:translate3d(-3%,0,0) skewX(-2deg)}to{opacity:1;transform:translate3d(3%,0,0) skewX(2deg)}}
+@keyframes rays{from{opacity:.4;transform:rotate(-4deg)}to{opacity:.95;transform:rotate(4deg)}}
+@keyframes dimflick{0%,100%{opacity:.55}30%{opacity:.7}40%{opacity:.62}42%{opacity:.32}45%{opacity:.66}68%{opacity:.5}71%{opacity:.28}74%{opacity:.6}}
+@keyframes dawn{from{opacity:0;transform:scale(.85)}to{opacity:.8;transform:none}}
+@keyframes dsweep{0%{opacity:0;transform:translate3d(-60%,0,0)}25%{opacity:1}100%{opacity:0;transform:translate3d(60%,0,0)}}
+@keyframes shim{0%,100%{opacity:.35;transform:translate3d(-2%,0,0) scaleY(1)}50%{opacity:.9;transform:translate3d(2%,1px,0) scaleY(1.06)}}
+@keyframes fall{0%{opacity:0;transform:translate3d(0,0,0)}10%{opacity:.85}90%{opacity:.85}100%{opacity:0;transform:translate3d(var(--dx),105vh,0)}}
+@keyframes petal{0%{opacity:0;transform:translate3d(0,0,0) rotate(0)}12%{opacity:.9}88%{opacity:.8}100%{opacity:0;transform:translate3d(var(--dx),70vh,0) rotate(540deg)}}
+@keyframes mote{0%,100%{opacity:0;transform:translate3d(0,0,0)}50%{opacity:.8;transform:translate3d(var(--dx),-30px,0)}}
+@keyframes twinkle{0%,100%{opacity:.15}50%{opacity:.95}}
+@media (max-width:700px){.op-fx .pt i:nth-child(n+9){display:none}}
+@media (prefers-reduced-motion:reduce){.op-fx .glow,.op-fx .halo,.op-fx .dawn,.op-fx .glow.sun{opacity:.6}}

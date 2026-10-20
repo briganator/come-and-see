@@ -21,6 +21,12 @@ document.addEventListener('DOMContentLoaded',function(){
    if(bar&&main){var r=main.getBoundingClientRect();var p=Math.min(1,Math.max(0,-r.top/Math.max(1,r.height-vh)));bar.style.transform='scaleX('+p.toFixed(4)+')'}}
   window.addEventListener('scroll',function(){if(!tk){tk=true;requestAnimationFrame(frame)}},{passive:true});window.addEventListener('resize',frame);frame();
  } else if(bar&&main){window.addEventListener('scroll',function(){var r=main.getBoundingClientRect();bar.style.transform='scaleX('+Math.min(1,Math.max(0,-r.top/Math.max(1,r.height-innerHeight)))+')'},{passive:true})}
+ // ---- chapter opener motion: size fx stage like the cover image; pause offscreen ----
+ (function(){var o=document.querySelector('.opener[class*="m-ch"]');if(!o)return;var st=o.querySelector('.op-fx');
+  function size(){var w=o.clientWidth,h=o.clientHeight,r=16/9;if(w/h>r){st.style.setProperty('--fw',w+'px');st.style.setProperty('--fh',w/r+'px')}else{st.style.setProperty('--fw',h*r+'px');st.style.setProperty('--fh',h+'px')}}
+  size();window.addEventListener('resize',size);
+  if('IntersectionObserver' in window)new IntersectionObserver(function(es){o.classList.toggle('off',!es[0].isIntersecting)}).observe(o);
+ })();
  // downloads: enable each file link only once the file exists on the server
  function fmt(b){if(!b)return '';b=+b;return b>1048576?(b/1048576).toFixed(1)+' MB':Math.max(1,Math.round(b/1024))+' KB'}
  document.querySelectorAll('[data-file]').forEach(function(el){
